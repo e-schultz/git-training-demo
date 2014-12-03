@@ -8,7 +8,7 @@ var app = express();
 
 app.use(express.static('badchange'));
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 4000);
 
 var server = app.listen(app.get('port'), function () {
   console.log('Listening on port ', server.address()
