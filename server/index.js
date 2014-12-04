@@ -6,7 +6,7 @@ var serveStatic = require('serve-static');
 
 var app = express();
 
-app.use(express.static('client'));
+app.use(express.static('badchange'));
 
 app.set('port', process.env.PORT || 4000);
 
